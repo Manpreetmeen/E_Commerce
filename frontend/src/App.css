@@ -1,0 +1,144 @@
+body {
+  background-color: #e0ffff;
+}
+
+.nav-ul {
+  margin: 0;
+  background-color: #01796f;
+  height: 60px;
+  text-align: left;
+}
+.nav-ul li {
+  display: inline-block;
+  padding: 20px;
+}
+.nav-ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.container-sign,
+.product {
+  margin-left: 30%;
+}
+.signupword {
+  margin-left: 120px;
+}
+.btnsignup {
+  margin-left: 120px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  margin: 20px;
+  width: 336px;
+  background-color: #01796f;
+  cursor: pointer;
+}
+.inputfield {
+  text-align: center;
+  border-radius: 10px;
+  display: block;
+  padding: 15px;
+  margin: 20px;
+  width: 300px;
+  border: 2px solid black;
+}
+
+.footer {
+  position: absolute;
+  background-color: #01796f;
+  text-align: center;
+  width: 100%;
+  color: white;
+  bottom: 0;
+}
+
+.login {
+  margin-left: 30%;
+  text-align: center;
+}
+.btnlogin {
+  text-align: center;
+  display: block;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  width: 336px;
+  background-color: #01796f;
+  cursor: pointer;
+}
+.loginWord {
+  margin-left: 41%;
+  font-weight: 800;
+}
+.nav-right {
+  text-align: right;
+}
+.logoimg {
+  width: 60px;
+  float: left;
+  margin-top: 7px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.invalid-input {
+  margin-left: 20px;
+  color: red;
+  margin-top: -20px;
+  display: block;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li {
+  display: inline-block;
+  padding: 10px;
+  width: 120px;
+  border: 1px solid rgb(44, 188, 245);
+}
+.product-list ul {
+  margin: 0;
+}
+
+.input-productlist {
+  width: 400px;
+  height: 40px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+
+.profile-div {
+  margin-left: 60px;
+  margin-top: 50px;
+}
+.profile-div img {
+  width: 170px;
+  height: 175px;
+  border: 2px solid black;
+  float: left;
+  margin-right: 20px;
+}
